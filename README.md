@@ -1,5 +1,7 @@
 
 # FC API
+## 代理平台地址：https://sell.fcpublic.com
+## open ai/midjourney 全系列模型招代理 价格可谈 量大有优惠
 
 > **Note**
 > 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)的基础上进行二次开发，感谢原作者的无私奉献。 
