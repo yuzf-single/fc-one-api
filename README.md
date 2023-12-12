@@ -35,11 +35,11 @@
 <img src="https://ai-1257122692.cos.accelerate.myqcloud.com/common/541702083204_.pic.jpg" style="width: 160px;height: 160px;" alt="联系微信">
 
 ## 界面截图
-![image](https://ai-1257122692.cos.ap-shanghai.myqcloud.com/common/WX20231212-121341%402x.png)
+![image](https://ai-1257122692.cos.accelerate.myqcloud.com/common/WX20231212-121341%402x.png)
 
-![image](https://ai-1257122692.cos.ap-shanghai.myqcloud.com/common/WX20231212-121409%402x.png)  
-![image](https://ai-1257122692.cos.ap-shanghai.myqcloud.com/common/WX20231212-121429%402x.png)  
-![image](https://ai-1257122692.cos.ap-shanghai.myqcloud.com/common/WX20231212-121450%402x.png)
+![image](https://ai-1257122692.cos.accelerate.myqcloud.com/common/WX20231212-121409%402x.png)  
+![image](https://ai-1257122692.cos.accelerate.myqcloud.com/common/WX20231212-121429%402x.png)  
+![image](https://ai-1257122692.cos.accelerate.myqcloud.com/common/WX20231212-121450%402x.png)
 
 
 
