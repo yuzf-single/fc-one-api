@@ -1,0 +1,438 @@
+[SYS] 2023/11/30 - 00:57:30 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 00:57:30 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 00:57:30 | database migration started 
+[SYS] 2023/11/30 - 00:57:30 | database migrated 
+[SYS] 2023/11/30 - 00:57:30 | no user exists, create a root user for you: username is root, password is 123456 
+[SYS] 2023/11/30 - 00:57:30 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 00:57:30 | initializing token encoders 
+[SYS] 2023/11/30 - 00:57:54 | token encoders initialized 
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842496076000EuYifgTK | 200 |   13.005167ms |             ::1 |     GET /
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842524004000XiyhZ3jb | 200 |   34.373292ms |             ::1 |     GET /static/css/main.54631fc9.css
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842521601000SuJwoM9S | 200 |   41.778875ms |             ::1 |     GET /static/js/main.95946646.js
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842816130000CdTq4FGK | 200 |     239.625µs |             ::1 |     GET /logo.png
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842828408000z9rkC0bc | 200 |      2.7815ms |             ::1 |     GET /static/js/416.e51f1b68.chunk.js
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842859542000WGOWNlg6 | 200 |     927.083µs |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842862094000lX7JlKlr | 200 |     2.16875ms |             ::1 |     GET /static/media/outline-icons.687a4990ea22bb1a49d4.woff2
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842861848000rSu8e6kV | 200 |    3.038125ms |             ::1 |     GET /static/media/icons.38c6d8bab26db77d8c80.woff2
+[GIN] 2023/11/30 - 00:58:42 | 20231130005842866369000u21zrSg7 | 200 |     804.666µs |             ::1 |     GET /api/notice
+[GIN] 2023/11/30 - 00:58:42 | 202311300058428665800005JGWGCwW | 200 |     812.333µs |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 00:59:04 | 20231130005904808680000OkQPPKD2 | 200 |    2.196792ms |             ::1 |     GET /mj/submit/action
+[GIN] 2023/11/30 - 00:59:04 | 20231130005904887026000qoRlKdRR | 200 |      35.958µs |             ::1 |     GET /mj/submit/logo.png
+[GIN] 2023/11/30 - 00:59:04 | 20231130005904894203000K7rNTb7P | 200 |     944.833µs |             ::1 |     GET /api/status
+[ERR] 2023/11/30 - 00:59:27 | 20231130005927522136000q5qLjEht | 无效的令牌 
+[GIN] 2023/11/30 - 00:59:27 | 20231130005927522136000q5qLjEht | 401 |    2.553083ms |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 01:00:27 | 20231130010027739214000Pdd63xwI | 200 |    1.423959ms |             ::1 |     GET /
+[GIN] 2023/11/30 - 01:00:27 | 20231130010027823810000oSHv6qfo | 200 |    1.337958ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 01:00:27 | 20231130010027849124000JyBUhY3w | 200 |     911.333µs |             ::1 |     GET /api/notice
+[GIN] 2023/11/30 - 01:00:27 | 20231130010027851303000tz6epRc1 | 200 |    1.115875ms |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 01:00:40 | 2023113001004094607300057Edvf6D | 200 |    4.474958ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 01:01:05 | 20231130010105234493000xcfPnNQv | 200 |  107.281125ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 01:01:05 | 20231130010105367425000OQiVrJwu | 200 |    2.225041ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 01:01:08 | 20231130010108134212000DBCyZ3DE | 200 |    3.573709ms |             ::1 |     GET /api/token/?p=0
+[GIN] 2023/11/30 - 01:01:23 | 202311300101238306530005BGmuwOJ | 200 |    4.318333ms |             ::1 |    POST /api/token/
+[GIN] 2023/11/30 - 01:01:26 | 20231130010126685228000AKkbjYD0 | 200 |     3.43025ms |             ::1 |     GET /api/token/?p=0
+[ERR] 2023/11/30 - 01:01:47 | 20231130010147799616000FUIl68ik | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:01:47 | 20231130010147799616000FUIl68ik | 503 |      3.7595ms |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 01:01:54 | 2023113001015474413000ROmgAXl9 | 200 |     2.90375ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 01:01:55 | 20231130010155484973000WndUNWJC | 200 |    2.001458ms |             ::1 |     GET /api/group/
+[GIN] 2023/11/30 - 01:01:55 | 20231130010155484879000n1s7zxU0 | 200 |    3.195959ms |             ::1 |     GET /api/channel/models
+[GIN] 2023/11/30 - 01:03:29 | 202311300103299840340003FkAd0pH | 200 |    6.238083ms |             ::1 |    POST /api/channel/
+[GIN] 2023/11/30 - 01:03:36 | 20231130010336834501000xav9O5XF | 200 |    1.457541ms |             ::1 |     GET /api/notice
+[GIN] 2023/11/30 - 01:03:36 | 20231130010336837959000aeeX7pUe | 200 |    1.094209ms |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 01:03:42 | 20231130010342750534000tpqUWRGh | 200 |      1.5575ms |             ::1 |     GET /
+[GIN] 2023/11/30 - 01:03:42 | 202311300103428658600003e3PCbWY | 200 |    1.349541ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 01:03:42 | 20231130010342886218000flbjoZpW | 200 |    1.022208ms |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 01:03:42 | 20231130010342886202000l8Rv3JLb | 200 |    1.253291ms |             ::1 |     GET /api/notice
+[ERR] 2023/11/30 - 01:03:55 | 20231130010355903210000yrTII0hj | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:03:55 | 20231130010355903210000yrTII0hj | 503 |    1.921583ms |             ::1 |    POST /mj/submit/action
+[ERR] 2023/11/30 - 01:03:57 | 20231130010357263050000zzRKxW6R | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:03:57 | 20231130010357263050000zzRKxW6R | 503 |    1.322166ms |             ::1 |    POST /mj/submit/action
+[ERR] 2023/11/30 - 01:08:14 | 20231130010553761890000P0axL2GB | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:08:14 | 20231130010553761890000P0axL2GB | 503 | 2m20.933058958s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 01:08:14 | 20231130010814749326000BreeZhi0 | 200 |    6.444709ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 01:08:14 | 20231130010814749250000mtVWSs5D | 200 |    6.977917ms |             ::1 |     GET /api/token/?p=0
+[GIN] 2023/11/30 - 01:08:14 | 20231130010814757766000IWnTmZcD | 200 |     1.60025ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 01:08:23 | 20231130010822950333000jCJpj3lN | 200 |    612.4625ms |             ::1 |     GET /api/channel/test/1
+[ERR] 2023/11/30 - 01:08:57 | 20231130010848112393000puuE2c16 | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:08:57 | 20231130010848112393000puuE2c16 | 503 |  9.552269125s |             ::1 |    POST /mj/submit/action
+[ERR] 2023/11/30 - 01:12:46 | 2023113001105588561000kyn1QM5t | 当前分组 default 下对于模型 midjourney 无可用渠道 
+[GIN] 2023/11/30 - 01:12:46 | 2023113001105588561000kyn1QM5t | 503 | 1m51.046687458s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 01:28:11 | 20231130012811203760000ifpzXLc3 | 200 |   14.724916ms |             ::1 |     GET /api/channel/1
+[GIN] 2023/11/30 - 01:28:11 | 20231130012811203898000lUyMOKSN | 200 |   14.918666ms |             ::1 |     GET /api/group/
+[GIN] 2023/11/30 - 01:28:11 | 2023113001281120378600060Fir4yV | 200 |   15.970375ms |             ::1 |     GET /api/channel/models
+[GIN] 2023/11/30 - 01:28:25 | 20231130012825750950000xOHq5hdM | 200 |   13.620417ms |             ::1 |     PUT /api/channel/
+[SYS] 2023/11/30 - 01:29:38 | relay error (channel #1):  
+[GIN] 2023/11/30 - 01:29:52 | 20231130012840146962000aGBersGX | 400 | 1m11.913495875s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 01:31:57 | relay error (channel #1):  
+[GIN] 2023/11/30 - 01:31:57 | 20231130013014868115000wjiCTv7g | 400 | 1m42.834023083s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 01:33:13 | relay error (channel #1):  
+[GIN] 2023/11/30 - 01:33:13 | 20231130013306637641000LHJ1OkcT | 400 |  6.860948291s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 01:33:49 | 20231130013349148556000gvFIlHf6 | 200 |    1.715792ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701282829
+[GIN] 2023/11/30 - 01:33:52 | 20231130013352898812000XYUngAqR | 200 |       2.011ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:33:54 | 20231130013354791298000CCFd0ofq | 200 |    2.109625ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:03 | 20231130013403441910000uRFoekBc | 200 |    6.761209ms |             ::1 |     GET /api/log/stat?type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:09 | 202311300134091388350008OBuMh4y | 200 |    1.819375ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=sk-WCjlWgd6ekADHzK6B85c7502873a48609956Cb570cF7D2Ce&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:10 | 202311300134101390050002Vs3Mht4 | 200 |      2.0915ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=sk-WCjlWgd6ekADHzK6B85c7502873a48609956Cb570cF7D2Ce&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:14 | 20231130013414373036000GyS9y0KW | 200 |     2.63125ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:15 | 20231130013415115741000xPKspdNy | 200 |    1.425458ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:15 | 20231130013415291027000zehwBesZ | 200 |     2.18625ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701282832&channel=
+[GIN] 2023/11/30 - 01:34:16 | 20231130013416849364000xw5lahla | 200 |      1.6205ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701282856
+[GIN] 2023/11/30 - 01:34:56 | 2023113001345697496000CmPdfrNu | 200 |    5.149166ms |             ::1 |     GET /api/option/
+[GIN] 2023/11/30 - 01:34:59 | 202311300134594563830004GLuHFyM | 200 |    4.285667ms |             ::1 |     GET /api/option/
+[GIN] 2023/11/30 - 01:35:03 | 20231130013503950135000GGgQwAQJ | 200 |    2.074083ms |             ::1 |     GET /api/option/
+[GIN] 2023/11/30 - 01:35:21 | 202311300135218645270000UVLNY1z | 200 |   10.256875ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 01:35:26 | 20231130013526749495000j5BGpJc6 | 200 |    2.790166ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 01:35:29 | 202311300135292957470000fM8la34 | 200 |       1.278ms |             ::1 |     GET /api/notice
+[GIN] 2023/11/30 - 01:35:29 | 20231130013529297518000IH1HEIgB | 200 |     5.99675ms |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 01:35:39 | 20231130013539267140000c1XTrrkv | 200 |     6.20775ms |             ::1 |     GET /static/js/416.e51f1b68.chunk.js.map
+[GIN] 2023/11/30 - 01:35:39 | 20231130013539296147000ku4S0Ivx | 200 |   37.356125ms |             ::1 |     GET /static/css/main.54631fc9.css.map
+[GIN] 2023/11/30 - 01:35:39 | 20231130013539266750000omRaujMW | 200 |  155.720917ms |             ::1 |     GET /static/js/main.95946646.js.map
+[ERR] 2023/11/30 - 11:01:32 | 20231130110132585276000K2lsdEkR | 该令牌已过期 
+[GIN] 2023/11/30 - 11:01:32 | 20231130110132585276000K2lsdEkR | 401 |    9.578583ms |             ::1 |    POST /mj/submit/imagine
+[GIN] 2023/11/30 - 11:01:50 | 202311301101506617840004C97Oem7 | 200 |     5.02325ms |             ::1 |     GET /
+[GIN] 2023/11/30 - 11:01:50 | 20231130110150797889000Fgfi5afg | 200 |    1.473875ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 11:01:50 | 20231130110150834091000UJ04xPNs | 200 |     1.13075ms |             ::1 |     GET /api/notice
+[GIN] 2023/11/30 - 11:01:50 | 20231130110150835537000HmPVu8FR | 200 |    6.931208ms |             ::1 |     GET /api/home_page_content
+[GIN] 2023/11/30 - 11:01:57 | 20231130110157267433000bMcWuqer | 200 |    6.520917ms |             ::1 |     GET /api/token/?p=0
+[GIN] 2023/11/30 - 11:02:02 | 202311301102027735470009TiWjWzA | 200 |    2.979916ms |             ::1 |     GET /api/token/1
+[GIN] 2023/11/30 - 11:02:07 | 20231130110207343950000DsXTXXjc | 200 |    5.872542ms |             ::1 |     PUT /api/token/
+[GIN] 2023/11/30 - 11:02:11 | 20231130110211134610000yTEzsyDi | 200 |    3.288542ms |             ::1 |     GET /api/token/?p=0
+[GIN] 2023/11/30 - 11:02:15 | 20231130110215943969000VOF46jUt | 200 |    5.571875ms |             ::1 |     PUT /api/token/?status_only=true
+[SYS] 2023/11/30 - 11:02:49 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:02:50 | 20231130110222766018000y83NeQoL | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=30000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:02:50 | 20231130110222766018000y83NeQoL | 200 | 27.389625291s |             ::1 |    POST /mj/submit/imagine
+[SYS] 2023/11/30 - 11:05:11 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:05:11 | 20231130110511193519000OCnjrn4F | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=6000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:05:11 | 20231130110511193519000OCnjrn4F | 200 |  301.388166ms |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 11:05:40 | 20231130110540643743000vTC6J95f | 200 |     2.62675ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701317140&channel=
+[GIN] 2023/11/30 - 11:05:48 | 202311301105485758390002Mt3RFnF | 200 |    2.168166ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701317148
+[GIN] 2023/11/30 - 11:05:56 | 20231130110554809371000PW7IDPCo | 200 |  1.762130958s |             ::1 |     GET /mj/image/1701313511478115
+[GIN] 2023/11/30 - 11:05:56 | 20231130110556725249000WwvtcPSl | 200 |    2.873833ms |             ::1 |     GET /favicon.ico
+[GIN] 2023/11/30 - 11:06:09 | 20231130110609239837000lRzVp4su | 200 |     1.39275ms |             ::1 |     GET /midjourney
+[GIN] 2023/11/30 - 11:06:09 | 20231130110609461148000KYrm3aBj | 200 |    2.294333ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701317169
+[GIN] 2023/11/30 - 11:06:09 | 20231130110609462274000cfbgJgHg | 200 |    1.196791ms |             ::1 |     GET /api/status
+[SYS] 2023/11/30 - 11:16:51 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 11:16:51 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 11:16:51 | database migration started 
+[SYS] 2023/11/30 - 11:16:51 | database migrated 
+[SYS] 2023/11/30 - 11:16:51 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 11:16:51 | initializing token encoders 
+[SYS] 2023/11/30 - 11:16:51 | token encoders initialized 
+[SYS] 2023/11/30 - 11:28:21 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:28:22 | 20231130112821714823000iS8SOqvQ | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=6000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:28:22 | 20231130112821714823000iS8SOqvQ | 200 |   307.70325ms |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 11:28:31 | 20231130112831270067000xPxBqsKJ | 401 |    1.533042ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701317169
+[GIN] 2023/11/30 - 11:28:31 | 20231130112831283086000ZtiL57IK | 200 |    6.625333ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/11/30 - 11:28:31 | 202311301128315652880004C6iq9j3 | 200 |    1.060125ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 11:28:42 | 2023113011284256305000CpF0AZuq | 200 |   108.41475ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 11:28:42 | 20231130112842176040000S2P9KjaG | 200 |    1.839125ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 11:28:44 | 20231130112844873566000IkL0vWtH | 200 |         3.3ms |             ::1 |     GET /api/user/?p=0
+[GIN] 2023/11/30 - 11:28:49 | 2023113011284974698000yJwLrIvX | 200 |    1.952708ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701318529&channel=
+[GIN] 2023/11/30 - 11:29:09 | 20231130112909172536000O9N5ENBu | 200 |    1.991958ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701318549
+[SYS] 2023/11/30 - 11:30:49 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:30:50 | 20231130113049925247000yL6LKuYa | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=6000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:30:50 | 20231130113049925247000yL6LKuYa | 200 |  292.141459ms |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 11:34:17 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:34:18 | 20231130113154452517000kz452Giw | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=6000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:34:18 | 20231130113154452517000kz452Giw | 200 | 2m23.837977208s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 11:34:47 | 20231130113447280067000fj8mcUtl | 200 |    2.685875ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701318549
+[GIN] 2023/11/30 - 11:34:58 | 20231130113452983697000r2L9Xd3Y | 200 |  5.103301833s |             ::1 |     GET /mj/image/1701315258281979
+[GIN] 2023/11/30 - 11:34:58 | 20231130113448851755000iGtjoACZ | 200 |  9.977366542s |             ::1 |     GET /mj/image/1701313370174406
+[GIN] 2023/11/30 - 11:36:38 | 20231130113638804789000QymkEtkN | 200 |     1.96975ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 11:36:41 | 202311301136414796970002mgwfWoJ | 200 |    3.224875ms |             ::1 |    POST /api/user/amount
+[GIN] 2023/11/30 - 11:36:48 | 20231130113648337199000l8u0oJl5 | 200 |    2.898916ms |             ::1 |    POST /api/user/pay
+[GIN] 2023/11/30 - 11:36:53 | 20231130113653888060000jUqWWJ2T | 200 |    3.141417ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319013
+[GIN] 2023/11/30 - 11:37:10 | 20231130113709990972000Zg5gE2RS | 200 |    13.62275ms |             ::1 |     GET /static/js/651.a6b33f1c.chunk.js
+[GIN] 2023/11/30 - 11:37:10 | 202311301137107530000IeGM6Lfl | 200 |    1.278209ms |             ::1 |     GET /api/about
+[SYS] 2023/11/30 - 11:41:54 | model ratio not found: midjourney 
+[INFO] 2023/11/30 - 11:41:55 | 20231130114151183631000b1pus8Ur | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=6000, content=模型倍率 30.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 11:41:55 | 20231130114151183631000b1pus8Ur | 200 |  3.918290084s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 11:42:17 | 20231130114217663812000VBWQym0b | 200 |    1.964542ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:20 | 20231130114220389260000zjm9HR8s | 200 |    3.204791ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:21 | 20231130114221382067000nKsEMQFf | 200 |    3.057125ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:22 | 2023113011422211666100073nUEk4e | 200 |    2.177208ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:22 | 202311301142228859550006rO1Rjge | 200 |    2.413208ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:23 | 20231130114223568297000eVrzgF0A | 200 |    3.402916ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:24 | 20231130114224288510000LPk7itrz | 200 |    2.637125ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:24 | 20231130114224833898000YTxYE1sU | 200 |    2.873292ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:25 | 20231130114225480257000Xknsjj1L | 200 |    2.983125ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:26 | 202311301142261781000lUvSDnyS | 200 |    2.952166ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:26 | 2023113011422658023900080t98ire | 200 |    2.863792ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:27 | 20231130114227109473000xf2S6nJo | 200 |    2.493958ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:27 | 20231130114227649733000DiMiLwtT | 200 |    3.009958ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:28 | 202311301142281196000002x95A2xu | 200 |    2.676334ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:28 | 20231130114228542244000reE6OGXW | 200 |    4.177541ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:37 | 202311301142375055780007gfqVIpI | 200 |       2.679ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:38 | 202311301142384440770000UsFttYo | 200 |    2.841791ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:39 | 2023113011423938081000JRRG88TY | 200 |    2.880625ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:39 | 20231130114239562436000KkgNtsIH | 200 |     2.08525ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:40 | 2023113011424076960000oLB0WUCL | 200 |     2.01575ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:40 | 20231130114240526977000l3webo6c | 200 |    2.240292ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:41 | 2023113011424121835000GtjGe4Li | 200 |    3.230375ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:41 | 20231130114241435992000NOIl4a4J | 200 |    3.014166ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:41 | 20231130114241829006000vlf0mXAy | 200 |    2.612333ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:42 | 202311301142421755360001KCbUJ8f | 200 |    2.776167ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:42 | 20231130114242562262000GkcbbrLT | 200 |    2.874583ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:42 | 20231130114242943432000CLLRqmhv | 200 |    3.213416ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:43 | 202311301142432567520004TSB1LoG | 200 |    3.002833ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:43 | 20231130114243473347000EPBXlZ2Z | 200 |    3.190125ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:43 | 20231130114243711980000Rc6ETdXB | 200 |    3.027417ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:43 | 2023113011424392621400036XtmVvX | 200 |    3.066667ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319337
+[GIN] 2023/11/30 - 11:42:45 | 20231130114245539637000kWRgV3QH | 200 |    2.393416ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701319365&channel=
+[GIN] 2023/11/30 - 11:43:14 | 20231130114314270415000cqLNsRv0 | 200 |    2.728209ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 11:43:19 | 20231130114319517835000U3BtR6wz | 200 |    2.636625ms |             ::1 |     GET /api/group/
+[GIN] 2023/11/30 - 11:43:19 | 20231130114319520758000OzXcsbd3 | 200 |    4.388041ms |             ::1 |     GET /api/channel/1
+[GIN] 2023/11/30 - 11:43:19 | 202311301143195194440009XLb5128 | 200 |    6.900625ms |             ::1 |     GET /api/channel/models
+[GIN] 2023/11/30 - 11:43:31 | 20231130114331692928000alFlYDlk | 200 |    2.302583ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 11:43:35 | 20231130114335386340000AldMBoUi | 200 |    1.704875ms |             ::1 |     GET /api/redemption/?p=0
+[GIN] 2023/11/30 - 11:43:39 | 20231130114339815463000vXGyaKFK | 200 |    8.211834ms |             ::1 |     GET /api/option/
+[GIN] 2023/11/30 - 11:44:42 | 20231130114442209801000xVymGADk | 200 |    7.846333ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:49 | 20231130114449676022000cWczLA59 | 200 |    5.412458ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:50 | 202311301144505591750008I0DmyuF | 200 |    2.583125ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:50 | 20231130114450731025000BYoG8pHA | 200 |    4.804417ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:50 | 20231130114450933462000hTv9oYVo | 200 |    2.592042ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:51 | 20231130114451345171000y34FhD6i | 200 |    3.071375ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:51 | 20231130114451501823000WANsN20A | 200 |    3.031708ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:51 | 202311301144516604350004Yjala4P | 200 |    2.995542ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:51 | 20231130114451935401000liMFU7jD | 200 |    2.869042ms |             ::1 |     PUT /api/option/
+[GIN] 2023/11/30 - 11:44:57 | 20231130114457430241000VPk85D92 | 200 |    1.856792ms |             ::1 |     GET /api/redemption/?p=0
+[GIN] 2023/11/30 - 11:44:58 | 20231130114458274663000u2Nt4O6W | 200 |    2.618125ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/11/30 - 11:44:59 | 202311301144595111890001m7Sc9OF | 200 |    2.757083ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701319499&channel=
+[GIN] 2023/11/30 - 11:48:03 | 20231130114803174943000viRPlg5N | 200 |    1.394542ms |             ::1 |     GET /static/js/651.a6b33f1c.chunk.js.map
+[GIN] 2023/11/30 - 11:48:04 | 202311301148048186940002L9Hjo2P | 200 |    1.396416ms |             ::1 |     GET /log
+[GIN] 2023/11/30 - 11:48:05 | 20231130114805477430009wi7JpAF | 200 |     1.06625ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 11:48:05 | 2023113011480547482000rojBPKnG | 200 |    2.015208ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701319685&channel=
+[GIN] 2023/11/30 - 11:52:35 | 20231130115235289415000ZnZulUx7 | 200 |    1.994875ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319955
+[GIN] 2023/11/30 - 11:52:39 | 20231130115239605503000A9tarkSB | 200 |    4.237583ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319955
+[GIN] 2023/11/30 - 11:52:46 | 20231130115242928754000Qe5UhqGI | 200 |   3.53453425s |             ::1 |     GET /mj/image/1701315715087776
+[SYS] 2023/11/30 - 14:24:32 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 14:24:32 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 14:24:32 | database migration started 
+[SYS] 2023/11/30 - 14:24:32 | database migrated 
+[SYS] 2023/11/30 - 14:24:32 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 14:24:33 | initializing token encoders 
+[SYS] 2023/11/30 - 14:24:33 | token encoders initialized 
+[INFO] 2023/11/30 - 14:28:21 | 20231130142815382385000RGR7ms1b | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 14:28:21 | 20231130142815382385000RGR7ms1b | 200 |  6.226050458s |             ::1 |    POST /mj/submit/imagine
+[INFO] 2023/11/30 - 14:41:26 | 202311301439533083260005w7gUeD2 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 14:41:26 | 202311301439533083260005w7gUeD2 | 200 | 1m33.637536291s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 14:42:25 | 20231130144225918806000NbeXDElz | 401 |    1.484333ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701319955
+[GIN] 2023/11/30 - 14:42:25 | 202311301442259366660008tL84ThV | 200 |    1.103333ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/11/30 - 14:42:26 | 20231130144226194317000tBzOroDN | 200 |    1.392459ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 14:42:33 | 20231130144233462156000WEWrJVam | 200 |  108.890166ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 14:42:33 | 20231130144233579533000yA0umCyc | 200 |    1.842042ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 14:42:35 | 20231130144235684638000r8n9fjkv | 200 |    3.182125ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701330155
+[SYS] 2023/11/30 - 14:49:07 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 14:49:07 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 14:49:07 | database migration started 
+[SYS] 2023/11/30 - 14:49:07 | database migrated 
+[SYS] 2023/11/30 - 14:49:07 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 14:49:07 | initializing token encoders 
+[SYS] 2023/11/30 - 14:49:07 | token encoders initialized 
+[INFO] 2023/11/30 - 14:49:51 | 20231130144912482044000noF652Uv | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 14:49:51 | 20231130144912482044000noF652Uv | 200 | 39.402593375s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 14:50:04 | 20231130145004577859000LTsRaVW5 | 401 |    1.155417ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701330604&channel=
+[GIN] 2023/11/30 - 14:50:04 | 20231130145004592083000SkrOwyIU | 200 |    1.064334ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/11/30 - 14:50:04 | 20231130145004830604000BxHSXS6E | 200 |     1.09025ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 14:50:13 | 20231130145013138360000fFD47nLO | 200 |  108.971042ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 14:50:13 | 20231130145013265407000vYSpgMUo | 200 |    1.466375ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 14:50:18 | 20231130145018265476000RZ5DCjIz | 200 |    2.673958ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701330618
+[GIN] 2023/11/30 - 14:50:25 | 202311301450258350630005hLM6S4A | 200 |    2.582708ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701330625&channel=
+[SYS] 2023/11/30 - 14:55:31 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 14:55:31 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 14:55:31 | database migration started 
+[SYS] 2023/11/30 - 14:55:31 | database migrated 
+[SYS] 2023/11/30 - 14:55:31 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 14:55:31 | initializing token encoders 
+[SYS] 2023/11/30 - 14:55:32 | token encoders initialized 
+[SYS] 2023/11/30 - 15:09:33 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 15:09:33 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 15:09:33 | database migration started 
+[SYS] 2023/11/30 - 15:09:33 | database migrated 
+[SYS] 2023/11/30 - 15:09:33 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 15:09:33 | initializing token encoders 
+[SYS] 2023/11/30 - 15:09:33 | token encoders initialized 
+[INFO] 2023/11/30 - 15:11:22 | 202311301510511630880000yZoz54L | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 15:11:22 | 202311301510511630880000yZoz54L | 200 | 31.821431875s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 15:14:06 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 15:14:06 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 15:14:06 | database migration started 
+[SYS] 2023/11/30 - 15:14:06 | database migrated 
+[SYS] 2023/11/30 - 15:14:06 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 15:14:06 | initializing token encoders 
+[SYS] 2023/11/30 - 15:14:06 | token encoders initialized 
+[GIN] 2023/11/30 - 15:14:07 | 20231130151407147365000hoL5c3j0 | 401 |    1.575667ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701330625&channel=
+[GIN] 2023/11/30 - 15:14:07 | 20231130151407179427000bsQU92Po | 200 |    1.017334ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/11/30 - 15:14:07 | 20231130151407443210000ypN03iNS | 200 |    1.085334ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 15:14:16 | 202311301514163519720009TmIcyCh | 200 |  109.523209ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 15:14:16 | 20231130151416477514000btwhv1BB | 200 |    2.125875ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 15:14:18 | 20231130151418632039000aUAse3JI | 200 |    2.649166ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701332058&channel=
+[GIN] 2023/11/30 - 15:14:20 | 20231130151420445012000hTFg68we | 200 |    3.509625ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701332060
+
+
+[31m2023/11/30 15:18:50 [Recovery] 2023/11/30 - 15:18:50 panic recovered:
+runtime error: invalid memory address or nil pointer dereference
+/Users/yuzf/sdk/go1.18/src/runtime/panic.go:220 (0x1044eb7fb)
+	panicmem: panic(memoryError)
+/Users/yuzf/sdk/go1.18/src/runtime/signal_unix.go:818 (0x1045032c3)
+	sigpanic: panicmem()
+/Users/yuzf/code/one-api-main/controller/relay-mj.go:73 (0x104fc2e80)
+	RelayMidjourneyImage: defer resp.Body.Close()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x104b4072b)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-contrib/sessions@v0.0.5/sessions.go:54 (0x104b5dbd3)
+	Sessions.func1: c.Next()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x104b4072b)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 (0x104b4fb77)
+	LoggerWithConfig.func1: c.Next()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x104b4072b)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/yuzf/code/one-api-main/middleware/request-id.go:16 (0x104ff49d3)
+	RequestId.func1: c.Next()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x104b4072b)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 (0x104b50f67)
+	CustomRecoveryWithWriter.func1: c.Next()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x104b4072b)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 (0x104b4d97b)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/yuzf/sdk/go1.18/lib/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 (0x104b4d51f)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/Users/yuzf/sdk/go1.18/src/net/http/server.go:2916 (0x10484a793)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/Users/yuzf/sdk/go1.18/src/net/http/server.go:1966 (0x10484516f)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/Users/yuzf/sdk/go1.18/src/runtime/asm_arm64.s:1259 (0x10451ced3)
+	goexit: MOVD	R0, R0	// NOP
+[0m
+[GIN] 2023/11/30 - 15:30:00 | 202311301530002833120009Ca0HtrW | 200 |   15.210333ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701332060
+[GIN] 2023/11/30 - 15:30:03 | 20231130153003890224000OuF77AS5 | 200 |    2.439917ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701332060
+[GIN] 2023/11/30 - 15:31:54 | 2023113015315433920000o7WV5XJs | 200 |     3.64275ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701332060
+[GIN] 2023/11/30 - 15:31:57 | 20231130153157849429000GQBjzJQR | 200 |    2.856542ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701333117&channel=
+[GIN] 2023/11/30 - 15:32:07 | 20231130153207437232000aGpB5oep | 200 |    2.858666ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701333117&channel=
+[INFO] 2023/11/30 - 15:33:39 | 20231130153301940797000L1ZJ2zFt | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 15:33:39 | 20231130153301940797000L1ZJ2zFt | 200 | 37.944850708s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 15:47:34 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 15:47:34 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 15:47:34 | database migration started 
+[SYS] 2023/11/30 - 15:47:34 | database migrated 
+[SYS] 2023/11/30 - 15:47:34 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 15:47:34 | initializing token encoders 
+[SYS] 2023/11/30 - 15:47:34 | token encoders initialized 
+[INFO] 2023/11/30 - 15:49:18 | 20231130154757655502000jVRZ77Cg | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 15:49:18 | 20231130154757655502000jVRZ77Cg | 200 | 1m21.222996833s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 15:51:12 | 20231130155112734655000wQv8vfu8 | 401 |    1.562208ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701333117&channel=
+[GIN] 2023/11/30 - 15:51:12 | 20231130155112751709000Omq2F7YE | 200 |    1.162625ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/11/30 - 15:51:13 | 2023113015511319754000zepDkrzO | 200 |    1.521416ms |             ::1 |     GET /api/status
+[GIN] 2023/11/30 - 15:51:19 | 20231130155119848576000Elrx09bA | 200 |     105.979ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/11/30 - 15:51:19 | 20231130155119974454000o8tu1VYW | 200 |       1.313ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 15:51:24 | 20231130155124944846000aetTS7gx | 200 |    4.475792ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701334284&channel=
+[GIN] 2023/11/30 - 15:51:26 | 20231130155126790517000x6wE4hcm | 200 |    4.004917ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701334286
+[GIN] 2023/11/30 - 15:51:45 | 2023113015513884916500062UnEkFp | 200 |  6.231378708s |             ::1 |     GET /mj/image/1701330558868905
+[GIN] 2023/11/30 - 15:51:51 | 20231130155151937746000Fuf05fWc | 200 |     2.73125ms |             ::1 |     GET /api/user/?p=0
+[GIN] 2023/11/30 - 15:51:52 | 20231130155152696642000hpSDBmX5 | 200 |    1.882459ms |             ::1 |     GET /api/user/self
+[GIN] 2023/11/30 - 15:51:54 | 20231130155154243844000yLYMsf48 | 200 |    2.128917ms |             ::1 |     GET /api/redemption/?p=0
+[GIN] 2023/11/30 - 15:51:55 | 20231130155155153707000rKkShxLa | 200 |    2.577042ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701334315&channel=
+[INFO] 2023/11/30 - 15:53:40 | 2023113015533353855000a8UhjYa3 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 15:53:40 | 2023113015533353855000a8UhjYa3 | 200 |  7.647448209s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 15:56:22 | relay error (channel #1):  
+[GIN] 2023/11/30 - 15:56:22 | 20231130155619144952000FpN6jPk7 | 400 |  3.673766833s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 15:57:04 | relay error (channel #1):  
+[GIN] 2023/11/30 - 15:57:04 | 202311301556394348360004ia78s3e | 400 | 25.511672542s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 15:58:59 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 15:58:59 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 15:58:59 | database migration started 
+[SYS] 2023/11/30 - 15:58:59 | database migrated 
+[SYS] 2023/11/30 - 15:58:59 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 15:58:59 | initializing token encoders 
+[SYS] 2023/11/30 - 15:58:59 | token encoders initialized 
+[GIN] 2023/11/30 - 15:59:13 | 20231130155908480883000FvMmGNUq | 200 |  5.443565916s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 16:01:11 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 16:01:11 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 16:01:11 | database migration started 
+[SYS] 2023/11/30 - 16:01:11 | database migrated 
+[SYS] 2023/11/30 - 16:01:11 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 16:01:11 | initializing token encoders 
+[SYS] 2023/11/30 - 16:01:11 | token encoders initialized 
+[GIN] 2023/11/30 - 16:01:21 | 20231130160115340838000e107i7H7 | 200 |  5.672951125s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 16:02:16 | 20231130160212996517000yffZ3BQt | 200 |  3.999334834s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 16:02:58 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 16:02:58 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 16:02:58 | database migration started 
+[SYS] 2023/11/30 - 16:02:58 | database migrated 
+[SYS] 2023/11/30 - 16:02:58 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 16:02:58 | initializing token encoders 
+[SYS] 2023/11/30 - 16:02:58 | token encoders initialized 
+[GIN] 2023/11/30 - 16:05:48 | 20231130160544902959000aomtE8lR | 200 |  4.021201834s |             ::1 |    POST /mj/submit/action
+[GIN] 2023/11/30 - 16:12:03 | 2023113016065998236000VMZid373 | 200 |    5m4.44347s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 16:32:10 | 2023113016320415675000036UCI5yE | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 16:32:10 | 2023113016320415675000036UCI5yE | 200 |  6.525785917s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 16:53:08 | 20231130165302166047000TpG5gDMO | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 16:53:08 | 20231130165302166047000TpG5gDMO | 200 |  6.721915125s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 16:55:16 | 20231130165516321014000MwlJwRP0 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 16:55:16 | 20231130165516321014000MwlJwRP0 | 200 |  275.541458ms |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 16:58:09 | 2023113016580916192000Xa7tz4AW | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 16:58:09 | 2023113016580916192000Xa7tz4AW | 200 |   304.15125ms |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 17:01:22 | 20231130170121840763000d2W6kiWA | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 17:01:22 | 20231130170121840763000d2W6kiWA | 200 |  280.259917ms |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 17:06:20 | 20231130170619847125000nmjC89X1 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 17:06:20 | 20231130170619847125000nmjC89X1 | 200 |  301.115875ms |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 17:09:44 | relay error (channel #1):  
+[GIN] 2023/11/30 - 17:09:44 | 20231130170944732078000d0M33tX6 | 400 |    7.805334ms |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 17:10:31 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 17:10:31 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 17:10:31 | database migration started 
+[SYS] 2023/11/30 - 17:10:31 | database migrated 
+[SYS] 2023/11/30 - 17:10:31 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 17:10:31 | initializing token encoders 
+[SYS] 2023/11/30 - 17:10:31 | token encoders initialized 
+[INFO] 2023/11/30 - 17:10:47 | 202311301710415077880000JX0AZ5S | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 17:10:47 | 202311301710415077880000JX0AZ5S | 200 |  6.449357375s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 17:52:50 | 20231130175212916995000fdf3UWlj | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 17:52:50 | 20231130175212916995000fdf3UWlj | 200 | 37.658266167s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 17:54:47 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 17:54:47 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 17:54:47 | database migration started 
+[SYS] 2023/11/30 - 17:54:47 | database migrated 
+[SYS] 2023/11/30 - 17:54:47 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 17:54:47 | initializing token encoders 
+[SYS] 2023/11/30 - 17:54:47 | token encoders initialized 
+[INFO] 2023/11/30 - 17:56:00 | 20231130175514829833000uzCd5XZ4 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 17:56:00 | 20231130175514829833000uzCd5XZ4 | 200 | 45.674449541s |             ::1 |    POST /mj/submit/modal
+[INFO] 2023/11/30 - 17:58:39 | 20231130175812877332000wEJkycRl | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:07:11 | 20231130175812877332000wEJkycRl | 200 | 8m59.064090084s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 18:08:10 | 20231130180755785193000Fg3fwEa5 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:08:10 | 20231130180755785193000Fg3fwEa5 | 200 | 14.469984792s |             ::1 |    POST /mj/submit/modal
+[SYS] 2023/11/30 - 18:10:20 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 18:10:20 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 18:10:20 | database migration started 
+[SYS] 2023/11/30 - 18:10:20 | database migrated 
+[SYS] 2023/11/30 - 18:10:20 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 18:10:20 | initializing token encoders 
+[SYS] 2023/11/30 - 18:10:20 | token encoders initialized 
+[INFO] 2023/11/30 - 18:14:58 | 202311301814431103560003llYKTHg | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:14:58 | 202311301814431103560003llYKTHg | 200 |  15.87598325s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 18:15:41 | 20231130181526279421000JvuTmQJV | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:15:41 | 20231130181526279421000JvuTmQJV | 200 |     15.21309s |             ::1 |    POST /mj/submit/modal
+[INFO] 2023/11/30 - 18:17:47 | 20231130181745186471000eaAgHB6q | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:17:47 | 20231130181745186471000eaAgHB6q | 200 |  2.795613041s |             ::1 |    POST /mj/submit/action
+[SYS] 2023/11/30 - 18:30:18 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 18:30:18 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 18:30:18 | database migration started 
+[SYS] 2023/11/30 - 18:30:18 | database migrated 
+[SYS] 2023/11/30 - 18:30:18 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 18:30:18 | initializing token encoders 
+[SYS] 2023/11/30 - 18:30:19 | token encoders initialized 
+[SYS] 2023/11/30 - 18:31:33 | One API v0.0.0 started 
+[SYS] 2023/11/30 - 18:31:33 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/11/30 - 18:31:33 | database migration started 
+[SYS] 2023/11/30 - 18:31:33 | database migrated 
+[SYS] 2023/11/30 - 18:31:33 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/11/30 - 18:31:33 | initializing token encoders 
+[SYS] 2023/11/30 - 18:31:33 | token encoders initialized 
+[INFO] 2023/11/30 - 18:31:46 | 2023113018314034369300055O82TKG | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=10000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:31:46 | 2023113018314034369300055O82TKG | 200 |    6.4535725s |             ::1 |    POST /mj/submit/action
+[INFO] 2023/11/30 - 18:33:12 | 20231130183214898409000i0S2ggR3 | record consume log: userId=1, channelId=1, promptTokens=0, completionTokens=0, modelName=midjourney, tokenName=test, quota=50000, content=模型倍率 50.00，分组倍率 1.00 
+[GIN] 2023/11/30 - 18:33:12 | 20231130183214898409000i0S2ggR3 | 200 | 57.936777791s |             ::1 |    POST /mj/submit/modal

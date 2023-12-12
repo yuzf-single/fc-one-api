@@ -1,0 +1,9 @@
+[SYS] 2023/12/04 - 01:46:08 | One API v0.0.0 started 
+[SYS] 2023/12/04 - 01:46:08 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/12/04 - 01:46:08 | database migration started 
+[SYS] 2023/12/04 - 01:46:08 | database migrated 
+[SYS] 2023/12/04 - 01:46:08 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/12/04 - 01:46:08 | initializing token encoders 
+[SYS] 2023/12/04 - 01:46:08 | token encoders initialized 
+[ERR] 2023/12/04 - 02:12:44 | 20231204021244295763000NdnIUlDE | 无效的令牌 
+[GIN] 2023/12/04 - 02:12:44 | 20231204021244295763000NdnIUlDE | 401 |    10.42225ms |             ::1 |    POST /mj/submit/imagine

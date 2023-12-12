@@ -1,0 +1,84 @@
+[SYS] 2023/12/01 - 13:26:40 | One API v0.0.0 started 
+[SYS] 2023/12/01 - 13:26:40 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/12/01 - 13:26:40 | database migration started 
+[SYS] 2023/12/01 - 13:26:40 | database migrated 
+[SYS] 2023/12/01 - 13:26:40 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/12/01 - 13:26:40 | initializing token encoders 
+[SYS] 2023/12/01 - 13:26:41 | token encoders initialized 
+[GIN] 2023/12/01 - 13:26:49 | 20231201132649150751000uhtd23EF | 200 |    1.757542ms |             ::1 |     GET /log
+[GIN] 2023/12/01 - 13:26:49 | 20231201132649397454000uxn82oOc | 401 |    1.047791ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701412009&channel=
+[GIN] 2023/12/01 - 13:26:49 | 20231201132649398558000AnmL5wVS | 200 |    1.086958ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:26:49 | 202312011326494189220005Qpeo6P2 | 200 |    1.182416ms |             ::1 |     GET /login?expired=true
+[GIN] 2023/12/01 - 13:26:49 | 20231201132649559918000ZF0SJH1M | 200 |      1.9145ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:26:56 | 20231201132656260119000lA0Zzy5g | 200 |  109.417625ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/12/01 - 13:26:56 | 20231201132656393410000amh3Zcuf | 200 |    1.603125ms |             ::1 |     GET /api/user/self
+[GIN] 2023/12/01 - 13:26:58 | 20231201132658954991000KmjOtyQn | 200 |    4.248959ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412018
+[GIN] 2023/12/01 - 13:27:39 | 20231201132739326507000z2BfZ1jf | 200 |      1.6355ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:39 | 202312011327394591050007HJ89tAv | 200 |    1.415083ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:39 | 20231201132739458485000pQMroEn9 | 200 |    2.691459ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412059
+[GIN] 2023/12/01 - 13:27:42 | 20231201132742801740000Mavo9nrB | 200 |    2.221458ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:42 | 20231201132742881722000BDmptCgX | 200 |      1.9155ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:42 | 20231201132742881385000lEEkAKlF | 200 |    3.143792ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412062
+[GIN] 2023/12/01 - 13:27:43 | 20231201132743854996000zIMRgkVP | 200 |     1.21575ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:43 | 20231201132743926775000CjzqgCsI | 200 |     936.167µs |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:43 | 20231201132743926311000BjcR2pTY | 200 |    2.208875ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412063
+[GIN] 2023/12/01 - 13:27:45 | 202312011327456641190003icoKrfU | 200 |    1.258417ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:45 | 20231201132745733895000mC0bbWES | 200 |     1.21775ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:45 | 20231201132745733144000dM1rzoCi | 200 |    2.361208ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412065
+[GIN] 2023/12/01 - 13:27:46 | 20231201132746227108000kivZnY8p | 200 |    1.556584ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:46 | 20231201132746295615000aryCIcn6 | 200 |    1.194791ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:46 | 202312011327462948430003OXUCTCz | 200 |     2.18275ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412066
+[GIN] 2023/12/01 - 13:27:46 | 2023120113274688417200010UoZQv7 | 200 |    2.235917ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:27:46 | 202312011327469572970008yJ91giG | 200 |     1.18575ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:27:46 | 20231201132746956995000wkAawGct | 200 |    2.217167ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412066
+[SYS] 2023/12/01 - 13:27:58 | One API v0.0.0 started 
+[SYS] 2023/12/01 - 13:27:58 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/12/01 - 13:27:58 | database migration started 
+[SYS] 2023/12/01 - 13:27:58 | database migrated 
+[SYS] 2023/12/01 - 13:27:58 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/12/01 - 13:27:58 | initializing token encoders 
+[SYS] 2023/12/01 - 13:27:58 | token encoders initialized 
+[GIN] 2023/12/01 - 13:28:02 | 20231201132802349142000zeZWh7Iq | 200 |    1.940417ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:28:02 | 202312011328023638510001aHoYKra | 200 |   53.699666ms |             ::1 |     GET /static/js/main.22b1737f.js
+[GIN] 2023/12/01 - 13:28:02 | 20231201132802463281000B3Nd4QLh | 401 |    1.162167ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412082
+[GIN] 2023/12/01 - 13:28:02 | 202312011328024640220003cLrbUib | 200 |     809.833µs |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:28:02 | 20231201132802473598000d6YXh3Ro | 200 |     735.041µs |             ::1 |     GET /login?expired=true
+[GIN] 2023/12/01 - 13:28:02 | 202312011328025369520003CjzYRzy | 200 |    1.264875ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:28:10 | 20231201132810758137000hnADmEXz | 200 |  110.900583ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/12/01 - 13:28:10 | 20231201132810891589000DoMA24xH | 200 |    1.292625ms |             ::1 |     GET /api/user/self
+[GIN] 2023/12/01 - 13:28:12 | 202312011328127049790001jEElgF8 | 200 |    3.532708ms |             ::1 |     GET /api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1701412092&channel=
+[GIN] 2023/12/01 - 13:28:13 | 20231201132813611491000kac76MXV | 200 |    3.049375ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412093
+[GIN] 2023/12/01 - 13:28:18 | 20231201132818464519000DnDK9Vgs | 200 |  162.414208ms |             ::1 |     GET /static/js/main.22b1737f.js.map
+[GIN] 2023/12/01 - 13:28:22 | 2023120113282282340000k6EXRavr | 200 |    1.402958ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:28:22 | 20231201132822276344000rRA1xBup | 200 |    1.502875ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:28:22 | 20231201132822275592000eoAlzkEI | 200 |    2.448292ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412102
+[SYS] 2023/12/01 - 13:29:47 | One API v0.0.0 started 
+[SYS] 2023/12/01 - 13:29:47 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/12/01 - 13:29:47 | database migration started 
+[SYS] 2023/12/01 - 13:29:47 | database migrated 
+[SYS] 2023/12/01 - 13:29:47 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/12/01 - 13:29:47 | initializing token encoders 
+[SYS] 2023/12/01 - 13:29:48 | token encoders initialized 
+[GIN] 2023/12/01 - 13:29:50 | 20231201132950882701000p2mUQUjO | 200 |    1.606459ms |             ::1 |     GET /midjourney
+[GIN] 2023/12/01 - 13:29:50 | 20231201132950924375000xQBgFrwJ | 200 |   53.592542ms |             ::1 |     GET /static/js/main.147430eb.js
+[GIN] 2023/12/01 - 13:29:51 | 20231201132951134463000pFZThhPg | 401 |    1.637208ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412191
+[GIN] 2023/12/01 - 13:29:51 | 20231201132951136416000fB0zjXaZ | 200 |    1.141208ms |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:29:51 | 20231201132951148559000MvVxERCg | 200 |     988.459µs |             ::1 |     GET /login?expired=true
+[GIN] 2023/12/01 - 13:29:51 | 20231201132951106387000ME8FL6TX | 200 |  166.575084ms |             ::1 |     GET /static/js/main.147430eb.js.map
+[GIN] 2023/12/01 - 13:29:51 | 20231201132951362075000kCIpLrKi | 200 |     854.833µs |             ::1 |     GET /api/status
+[GIN] 2023/12/01 - 13:30:01 | 20231201133001100378000oZDRZiG6 | 200 |   107.23225ms |             ::1 |    POST /api/user/login?turnstile=
+[GIN] 2023/12/01 - 13:30:01 | 20231201133001230632000QDIqFaDX | 200 |     1.46875ms |             ::1 |     GET /api/user/self
+[GIN] 2023/12/01 - 13:30:03 | 2023120113300323246000jrTye5Gy | 200 |    2.860916ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412203
+[GIN] 2023/12/01 - 13:30:09 | 20231201133009155902000XS4Z15kq | 200 |     3.08425ms |             ::1 |     GET /api/mj/?p=1&username=&token_name=&start_timestamp=0&end_timestamp=1701412203
+[GIN] 2023/12/01 - 13:30:28 | 20231201133024918085000o8Nl1Kih | 200 |  3.278446541s |             ::1 |     GET /mj/image/1701313511478115
+[GIN] 2023/12/01 - 13:30:38 | 20231201133038146439000McInqDgU | 200 |    2.256458ms |             ::1 |     GET /api/channel/?p=0&page_size=10
+[GIN] 2023/12/01 - 13:30:45 | 20231201133045508655000DikDnpcE | 200 |  316.589834ms |             ::1 |     GET /api/channel/test/1
+[GIN] 2023/12/01 - 13:30:56 | 20231201133056767172000foxFVkjT | 200 |  116.548292ms |             ::1 |     GET /api/channel/test/1
+[GIN] 2023/12/01 - 13:31:08 | 20231201133108869897000eTScWOOr | 200 |    2.273167ms |             ::1 |     GET /api/token/?p=0
+[GIN] 2023/12/01 - 13:31:12 | 2023120113311211486000HY35YeCX | 200 |    2.149125ms |             ::1 |     GET /api/redemption/?p=0
+[GIN] 2023/12/01 - 13:32:22 | 20231201133222475154000ks0zCaqb | 200 |    3.366459ms |             ::1 |     GET /api/mj/?p=0&username=&token_name=&start_timestamp=0&end_timestamp=1701412342
+[GIN] 2023/12/01 - 13:34:23 | 20231201133423539346000qgOosuDH | 200 |    1.083958ms |             ::1 |     GET /api/about
+[GIN] 2023/12/01 - 13:34:26 | 20231201133426253927000PS4tPRZk | 200 |       1.181ms |             ::1 |     GET /api/about
+[GIN] 2023/12/01 - 13:34:35 | 20231201133435169777000Wh8uSchM | 200 |    8.634208ms |             ::1 |     GET /api/option/
+[GIN] 2023/12/01 - 13:34:41 | 20231201133441149504000XsoJNuco | 200 |    5.342791ms |             ::1 |     GET /api/option/
+[GIN] 2023/12/01 - 13:34:48 | 20231201133448188151000kL82EQnI | 200 |    6.517666ms |             ::1 |     GET /api/option/
